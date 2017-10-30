@@ -1,0 +1,42 @@
+header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	font: sans-serif;
+	width: 960px;
+	position: relative;
+	margin: auto;
+}
+
+body {
+	background-image: url(https://lh3.googleusercontent.com/5vseI_T97Pd7Q1iiolpcFOJQXsR6n4DG3Q2pfYsxgDGsaEQ2OKOwEYxaPdj2ukCi-ya7hJBwpw=w640-h400-e365);
+	height: 200px;
+	width: 960px;
+}
+
+h1, h2, h3, h4 {
+	background-color: #4aaaa5;
+}
+
+aside, section, article, footer {
+	border-style: solid;
+	border-color: pink;
+	width: 270px;
+}
+
+div {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	border-color: black;
+}
+
+p {
+	color: #777777;
+	font: sans-serif;
+}
+
+footer {
+	background-color: #666666;
+}
+
+
