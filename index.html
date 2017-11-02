@@ -8,10 +8,17 @@
 				<!--Navigation Bar Header -->
 		<nav style="font: sans-serif;" id="navcolor">
 			<a  href="http://www.google.com" target="blank">About Me </a>
-			<a href="Portfolio">Portfolio</a>
-			<a href="file:///Users/vanessa/Downloads/VanessaNguyen_2017.pdf">Resume</a>
-			<a hrf="testsite">Contact</a>
+			<a href="Portfolio" target="blank">Portfolio</a>
+			<a href="file:///Users/vanessa/Downloads/VanessaNguyen_2017.pdf" target="blank">Resume</a>
+			<a hrf="testsite" target="blank">Contact</a>
 		</nav>
+		<style type="">
+			.grid{
+				display: grid;
+				grid-template-columns: 40% 30% 30%;
+				border-color: pink;
+			}
+		</style>
 	</header>
 	</div>
 
@@ -20,61 +27,70 @@
 		<img src="file:///Users/vanessa/Downloads/FullSizeRender.jpg">
 		<div>
 
+<section class="grid">
+	<article>
+
 		<br>
 		<!--About me Section -->
 		<h2>About Me</h2>
-		<p> This is my bio</p>
+		<p> I like to build and create. My hope is that this bootcamp will allow me to build an amazing web page for my brother, and help lead my team to build cool apps.</p>
 		</div>
 
-		<br>
+	</article>
+</section>
+
+<section class="grid">
+	<article>
 	<!--My Portfolio section -->
 	<div>
 		<h2>Portfolio</h2>
 		<p></p>
 	</div>
+	</article>
+</section>
 
-<br>
 
+<section>
+	<article>
 	<!--=My Resume section -->
 	<div>
 		<h2>Resume</h2>
 		<p></p>
 	</div>
+	<div>testdive</div>
+	<p>testp</p>
+	</article>
+</section>
 
-<br>
+
+<section>
+	<article>
 	<!--My contact info -->
 	<div>
-		<h2 class="h2class" style="color: pink">Contact Info</h3>
+		<h2 class="h2class" style="color: pink">Contact Info</h2>
 			<ul>
 				<li><strong>Email:</strong>vnguyen1m@gmail.com</li>
 				<li><strong>Github:</strong>https://github.com/vnguyen1m</li>
 				<li><strong>Portfolio:</strong> yoohoo</li>
 			</ul>
 	</div>
-
-
-		<!--Article goes in Header-->
-		<article>Article</article>
-
-		<!--Section-->
-		<section>Section between header</section>
+</article>
+</section>
 
 		<!-- Aside -->
 		<aside>Aside
-		<p>new paragraph</p>
+		<p>aside test</p>
 		</aside>
 
-		<br>
-		<!--Section About Vanessa, portfolio of work, resume, and contact info -->
-
-<br>
 	<!--Fun Things That are interesting to me-->
+	
+<section>
 	<div border-style: dotted>
 		<h2>Purpose of Life</h2>
 		<div>
 			<h3>Travel</h3>
 				<h4>Travel Photos</h4>
-					<ul>
+					<ul class="portfoliogrid">
 						<li>Africa</li>
 						<li>Alaska</li>
 						<li>Europe</li>
@@ -96,13 +112,22 @@
 		</div>
 		<br>
 		<div>
+</section>
 			<h3>Gratitude Journal</h3>
 		</div>
 	</div>
 <br>
 
+<div class="nested">
+	<div>Grid 1</div>
+	<div>Grid 2</div>
+	<div>Gridc3c</div>
+	<div>Gridc4c</div>
+	<div>Grid c5</div>
+</div>
+
 	</body>
-	<footer>Footer section to be filled</footer>
+	<footer>Vanessa Copyright 2017</footer>
 </html>
 
 
